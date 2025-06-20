@@ -1,4 +1,4 @@
-# 📊 LinkedIn Job Posting Analysis Project
+# 📊 LinkedIn Job Analysis Project
 
 ## 📌 Project Overview
 This project presents an interactive analysis of LinkedIn job postings focused on Data Analyst and Data Scientist roles. The goal is to identify key hiring trends, popular locations, and the most in-demand technical skills using a Streamlit dashboard.
