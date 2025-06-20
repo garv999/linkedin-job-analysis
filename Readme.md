@@ -1,46 +1,64 @@
 # 📊 LinkedIn Job Posting Analysis Project
 
-This project analyzes LinkedIn job postings to uncover trends in job roles, locations, salary ranges, and required skills for Data Science roles.
-
 ## 📌 Project Overview
+This project presents an interactive analysis of LinkedIn job postings focused on Data Analyst and Data Scientist roles. The goal is to identify key hiring trends, popular locations, and the most in-demand technical skills using a Streamlit dashboard.
 
-The goal of this project is to:
+## 🚀 Live Dashboard  
+[![View Live App](https://img.shields.io/badge/Streamlit-Live%20App-brightgreen?logo=streamlit)](https://linkedin-job-analysis-happ5gh6brnnuiraz75zbgo.streamlit.app/)
 
-- Identify the most in-demand job titles.
-- Explore top hiring locations and companies.
-- Analyze salary ranges for different roles.
-- Extract and visualize key skills required from job descriptions.
+## 🎯 Key Features
+✅ Real-time interactive dashboard using Streamlit
+
+📌 Visualization of top job titles and hiring locations
+
+📊 Skill analysis directly from job descriptions
+
+🎛️ Sidebar filters for dynamic selection of locations
+
+🛠️ Clean and modular Python code structure
 
 ## 🛠️ Tools & Technologies
+Python: pandas, matplotlib, seaborn, streamlit
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+Data Analysis & Cleaning: pandas
 
-🔍 Key Insights
-✅ Most In-Demand Job Titles: Data Scientist, Data Engineer, Data Analyst
+Data Visualization: seaborn, matplotlib, Streamlit native charts
 
-✅ Top Hiring Locations: Austin (TX), Chicago (IL), San Diego (CA)
+Dashboard Deployment: Streamlit Cloud
 
-✅ Top Hiring Companies: Applease, IBM, Amazon
+Version Control: Git & GitHub
 
-✅ Average Salary Range: $111K - $181K (Average ~$146K)
 
-✅ Most In-Demand Skills: R, Python, SQL, Excel, Machine Learning
+## 📂 Project Structure
+```text
+LinkedIn-Job-Posting-Analysis/
+│
+├── data/                             # Raw and dataset
+│   └── ds_salaries.csv
+│
+├── notebooks/                        # Jupyter Notebooks for EDA and preprocessing
+│   └── linkedin_job_analysis.ipynb
+│
+├── dashboard.py                      # Streamlit dashboard code
+├── requirements.txt                  # Project dependencies
+├── README.md                         # Project documentation
+└── .gitignore                        # Git ignored files and folders
 
-🚀 Future Improvements
-Automate data collection via LinkedIn scraping tools or APIs.
+```
+## 💡 Future Improvements
 
-Expand the analysis to other job roles and industries.
+🔄 Integrate real-time LinkedIn job scraping using APIs or Selenium
 
-Create an interactive dashboard using Power BI or Tableau.
+🌍 Expand analysis to cover more job roles and locations
 
-Track trends over time by scraping data regularly.
+💼 Add real-time salary benchmarks from external datasets
 
-📎 Dataset
-Data Scientist Jobs Dataset from Kaggle
+## 📚 Acknowledgements
+- Dataset Source: [Kaggle - Data Scientist Jobs Dataset](https://www.kaggle.com/datasets/andrewmvd/data-scientist-jobs)
 
-✨ Author
+## ✨ Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/garv999/)
+- [GitHub](https://github.com/garv999)
+
+## ✨Author
 Garv Agarwal
