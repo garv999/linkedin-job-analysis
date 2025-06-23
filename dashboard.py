@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="LinkedIn Job Analysis Dashboard", page_icon="📊", layout="wide")
+st.set_page_config(page_title="LinkedIn Job Analysis Dashboard", page_icon="📊")
 
 
 with st.spinner('Loading data...'):
